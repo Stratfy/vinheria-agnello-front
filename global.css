@@ -25,6 +25,8 @@
   --color-light-blue: rgb(230, 234, 235);
   --color-brown: rgb(122, 90, 70);
   --color-dark-green: rgb(77, 75, 43);
+
+  scroll-behavior: smooth;
 }
 
 /* Background da landing page principal */
