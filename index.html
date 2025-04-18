@@ -9,8 +9,9 @@
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Estilo da navbar -->
+  <!-- Estilos -->
   <link rel="stylesheet" href="src/styles/nav.css">
+  <link rel="stylesheet" href="src/styles/utility.css">
 
   <!-- Fontes externas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,13 +26,9 @@
   <!-- NAVBAR -->
   <header id="va-nav" class="z-50 w-full flex items-center justify-center">
     <nav class="flex justify-around w-full mt-3" aria-label="Navegação principal">
-
-      <!-- LOGO -->
       <div class="glass-bg rounded-full p-5">
         <a href="index.html" class="logo text-lg font-poiret">Vinheria Agnello</a>
       </div>
-
-      <!-- LINKS DE NAVEGAÇÃO -->
       <ul class="glass-bg rounded-full px-6 py-3 flex gap-10 items-center">
         <li><a href="#introduction" class="nav-btn">Home</a></li>
         <li><a href="#vinhos" class="nav-btn">Produtos</a></li>
@@ -41,6 +38,18 @@
     </nav>
   </header>
 
+  <!-- HERO / INTRODUÇÃO -->
+  <main>
+    <section id="introduction" class="flex justify-center items-center flex-col h-screen">
+      <h1 id="titulo" class="text-center fade-text text-4xl font-bold leading-snug text-white drop-shadow-md">
+        Descubra o sabor<br>
+        da Tradição
+      </h1>
+    </section>
+  </main>
+
+  <!-- JS principal -->
+  <script src="src/js/script.js" defer></script>
 </body>
 
 </html>
