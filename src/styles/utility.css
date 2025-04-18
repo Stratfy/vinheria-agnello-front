@@ -1,3 +1,5 @@
+/* src/styles/utility.css */
+
 .fade-text {
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
@@ -5,5 +7,17 @@
   
   .fade-in {
     opacity: 1;
+  }
+  
+  /* Animação de scroll */
+  .scroll-hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .scroll-visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   
