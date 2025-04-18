@@ -27,3 +27,20 @@ window.addEventListener('DOMContentLoaded', () => {
     elementos.forEach((el) => observer.observe(el));
   });
   
+  // Função que rola a página suavemente até o topo
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+
+// Mostrar ou ocultar botão "Voltar ao Topo"
+window.addEventListener("scroll", () => {
+  const btn = document.getElementById("btnTop");
+  if (window.scrollY > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+});
