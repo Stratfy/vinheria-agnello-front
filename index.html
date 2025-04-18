@@ -38,7 +38,7 @@
     </nav>
   </header>
 
-  <!-- HERO / INTRODUÇÃO -->
+  <!-- HERO -->
   <main>
     <section id="introduction" class="flex justify-center items-center flex-col h-screen">
       <h1 id="titulo" class="text-center fade-text text-4xl font-bold leading-snug text-white drop-shadow-md">
@@ -47,42 +47,39 @@
       </h1>
     </section>
 
-    <!-- DESTAQUES DA VINHERIA -->
+    <!-- DESTAQUES -->
     <section id="highlights" class="bg-2 w-full py-32 scroll-hidden">
       <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
+        <!-- Cards já adicionados no commit anterior -->
+        ...
+      </div>
+    </section>
 
-        <!-- VINHOS PREMIADOS -->
-        <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2c1.5 4 0 8-2 10s-3 4-3 6h10c0-2-1-4-3-6s-3.5-6-2-10z" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-4">VINHOS PREMIADOS</h3>
-          <p class="text-base">Selecionados em uma matéria alquímica.</p>
+    <!-- SOBRE A VINHERIA -->
+    <section id="sobre-nos" class="bg-2 py-20">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
+
+        <!-- TEXTO -->
+        <article class="md:w-1/2">
+          <h2 class="text-4xl font-playfair font-semibold text-[#4D4B2B] mb-6">Sobre a Vinheria Agnello</h2>
+          <p class="text-gray-700 text-lg leading-relaxed font-geist">
+            Fundada por apaixonados pelo mundo do vinho, a Vinheria Agnello nasceu com o propósito de transformar momentos simples em celebrações inesquecíveis.
+            <br><br>
+            Cada garrafa que produzimos carrega em si a essência da tradição, da terra e do cuidado. Das uvas cuidadosamente colhidas nas melhores safras às experiências únicas que proporcionamos, nosso compromisso é com a excelência.
+            <br><br>
+            Seja bem-vindo à nossa história, onde cada taça conta um capítulo de amor, dedicação e sabor.
+          </p>
         </article>
 
-        <!-- UVAS SELECIONADAS -->
-        <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2a5 5 0 015 5c0 2-3 5-5 7-2-2-5-5-5-7a5 5 0 015-5z" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-4">UVAS SELECIONADAS</h3>
-          <p class="text-base">Colhidas nas melhores serras regionais.</p>
-        </article>
-
-        <!-- EXPERIÊNCIAS EXCLUSIVAS -->
-        <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
-          <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 20h16M4 16h16M4 12h16M4 8h16M4 4h16" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-4">EXPERIÊNCIAS EXCLUSIVAS</h3>
-          <p class="text-base">Vivências detalhadas com amor e emoção.</p>
-        </article>
+        <!-- IMAGEM -->
+        <figure class="md:w-1/2">
+          <img src="src/assets/misc/image_family.jpg" alt="Vinhedo" class="rounded-xl shadow-xl w-full object-cover">
+        </figure>
 
       </div>
     </section>
   </main>
 
-  <!-- JS principal -->
   <script src="src/js/script.js" defer></script>
 </body>
 
