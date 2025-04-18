@@ -9,6 +9,9 @@
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <!-- Estilo da navbar -->
+  <link rel="stylesheet" href="src/styles/nav.css">
+
   <!-- Fontes externas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +21,26 @@
 </head>
 
 <body class="bg-1">
+
+  <!-- NAVBAR -->
+  <header id="va-nav" class="z-50 w-full flex items-center justify-center">
+    <nav class="flex justify-around w-full mt-3" aria-label="Navegação principal">
+
+      <!-- LOGO -->
+      <div class="glass-bg rounded-full p-5">
+        <a href="index.html" class="logo text-lg font-poiret">Vinheria Agnello</a>
+      </div>
+
+      <!-- LINKS DE NAVEGAÇÃO -->
+      <ul class="glass-bg rounded-full px-6 py-3 flex gap-10 items-center">
+        <li><a href="#introduction" class="nav-btn">Home</a></li>
+        <li><a href="#vinhos" class="nav-btn">Produtos</a></li>
+        <li><a href="#sobre-nos" class="nav-btn">Sobre Nós</a></li>
+        <li><a href="#footer" class="nav-btn">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
 </body>
 
 </html>
