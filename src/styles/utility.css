@@ -1,4 +1,3 @@
-/* src/styles/utility.css */
 
 .fade-text {
     opacity: 0;
@@ -9,7 +8,6 @@
     opacity: 1;
   }
   
-  /* Animação de scroll */
   .scroll-hidden {
     opacity: 0;
     transform: translateY(40px);

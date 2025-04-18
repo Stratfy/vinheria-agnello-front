@@ -1,0 +1,13 @@
+#introduction {
+    
+    height: 1300px;
+
+    h1 {
+        font-size: var(--font-xxl);
+        color: var(--white);
+        font-family: 'Playfair Display', serif;
+        font-weight: bolder;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        display: flex;
+    }
+}
