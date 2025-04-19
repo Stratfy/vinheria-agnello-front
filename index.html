@@ -154,7 +154,7 @@
   </main>
 
   <!-- Rodapé com informações institucionais, contato e redes sociais -->
-  <footer id="footer" class="bg-black text-white py-10">
+  <footer id="footer" class="bg-[#4D4B2B] text-white py-10">
     <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 
       <!-- Institucional -->
@@ -175,20 +175,46 @@
 
       <!-- Redes sociais -->
       <section>
-        <h3 class="text-lg font-semibold mb-4">Siga-nos</h3>
-        <ul class="flex space-x-4">
-          <li><a href="#" class="hover:text-gray-400">Facebook</a></li>
-          <li><a href="#" class="hover:text-gray-400">Instagram</a></li>
-          <li><a href="#" class="hover:text-gray-400">Twitter</a></li>
+        <h3 class="text-lg font-semibold mb-4">Siga‑nos</h3>
+        <ul class="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0">
+          <!-- Facebook -->
+          <li>
+            <a href="#"
+               onclick="scrollToTop(); return false;"
+               class="flex items-center space-x-2 hover:text-gray-400">
+              <img src="src/assets/icons/icone_facebook.svg" alt="Facebook" class="w-6 h-6"/>
+              <span>Facebook</span>
+            </a>
+          </li>
+          <!-- Instagram -->
+          <li>
+            <a href="#"
+               onclick="scrollToTop(); return false;"
+               class="flex items-center space-x-2 hover:text-gray-400">
+              <img src="src/assets/icons/icone_instagram.svg" alt="Instagram" class="w-6 h-6"/>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <!-- Twitter -->
+          <li>
+            <a href="#"
+               onclick="scrollToTop(); return false;"
+               class="flex items-center space-x-2 hover:text-gray-400">
+              <img src="src/assets/icons/icone_twitter.svg" alt="Twitter" class="w-6 h-6"/>
+              <span>Twitter</span>
+            </a>
+          </li>
         </ul>
       </section>
-    </div>
+      
 
     <!-- Direitos autorais -->
     <div class="text-center text-sm mt-8">
       &copy; 2025 Vinheria Agnello. Todos os direitos reservados.
     </div>
   </footer>
+
+  <!-- Botão de voltar ao topo -->
   <button onclick="scrollToTop()" id="btnTop" title="Voltar ao topo">↑</button>
 </body>
 
