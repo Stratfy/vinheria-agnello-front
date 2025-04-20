@@ -6,14 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vinheria Agnello</title>
 
-  <!-- Icone da Vinheria -->
   <link rel="icon" href="src/assets/misc/icone_vinho.png" type="image/png">
 
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="global.css">
 
-  <!-- Fontes externas -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
@@ -24,19 +21,15 @@
 
 <body class="bg-1">
 
-  <!-- Script principal com efeitos de animação e transições -->
   <script src="src/js/script.js" defer></script>
 
-  <!-- Header com navegação principal -->
   <header id="va-nav" class="z-50 w-full flex items-center justify-center">
     <nav class="flex justify-around w-full mt-3" aria-label="Navegação principal">
 
-      <!-- Logotipo da Vinheria -->
       <div class="glass-bg rounded-full p-5">
         <a href="index.html" class="logo text-lg font-poiret">Vinheria Agnello</a>
       </div>
 
-      <!-- Menu de navegação -->
       <ul class="glass-bg rounded-full px-6 py-3 flex gap-10 items-center">
 
         <li class="transform transition-transform duration-300 hover:scale-110"><a href="#introduction" class="nav-btn">Home</a></li>
@@ -49,7 +42,6 @@
   </header>
 
   <main>
-    <!-- Seção de destaque principal com slogan -->
     <section id="introduction" class="flex justify-center items-center flex-col h-screen">
       <h1 id="titulo" class="text-center fade-text text-4xl font-bold leading-snug">
         Descubra o sabor<br>
@@ -57,11 +49,9 @@
       </h1>
     </section>
 
-    <!-- Seção de diferenciais da vinheria -->
     <section id="highlights" class="bg-2 w-full py-32 scroll-hidden">
         <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
   
-          <!-- VINHOS PREMIADOS -->
           <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2c1.5 4 0 8-2 10s-3 4-3 6h10c0-2-1-4-3-6s-3.5-6-2-10z" />
@@ -70,7 +60,6 @@
             <p class="text-base">Selecionados em uma matéria alquímica.</p>
           </article>
   
-          <!-- UVAS SELECIONADAS -->
           <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2a5 5 0 015 5c0 2-3 5-5 7-2-2-5-5-5-7a5 5 0 015-5z" />
@@ -79,7 +68,6 @@
             <p class="text-base">Colhidas nas melhores serras regionais.</p>
           </article>
   
-          <!-- EXPERIÊNCIAS EXCLUSIVAS -->
           <article class="flex flex-col items-center p-8 bg-white rounded-lg shadow-lg">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16 mb-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: var(--color-dark-green)">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 20h16M4 16h16M4 12h16M4 8h16M4 4h16" />
@@ -91,11 +79,9 @@
         </div>
       </section>
 
-    <!-- Seção institucional com imagem e descrição -->
     <section id="sobre-nos" class="bg-2 py-20">
       <div class="max-w-6xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-10">
 
-        <!-- Bloco de texto -->
         <article class="md:w-1/2">
           <h2 class="text-4xl font-playfair font-semibold text-[#4D4B2B] mb-6">Sobre a Vinheria Agnello</h2>
           <p class="text-gray-700 text-lg leading-relaxed font-geist">
@@ -107,24 +93,20 @@
           </p>
         </article>
 
-        <!-- Imagem institucional -->
         <figure class="md:w-1/2">
           <img src="src/assets/misc/image_family.jpg" alt="Vinhedo" class="rounded-xl shadow-xl w-full object-cover">
         </figure>
       </div>
     </section>
 
-    <!-- Seção de vinhos disponíveis -->
     <section id="vinhos" class="bg-3 py-20">
       <div class="max-w-6xl mx-auto px-6">
         <h2 class="text-4xl font-playfair font-semibold text-center text-white mb-10 shadow-lg">
           Nossos Vinhos
         </h2>
 
-        <!-- Cards de vinhos -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
 
-          <!-- Produto: Vinho Tinto -->
           <div class="bg-white p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
             <article class="flex flex-col items-center p-6 bg-white rounded-lg shadow-2xl">
               <img src="src/assets/misc/image_wine1.png" alt="Vinho Tinto Reserva" class="w-full h-50 object-cover rounded-lg mb-4">
@@ -132,7 +114,6 @@
               <p class="text-base text-gray-700">Um vinho encorpado com notas de frutas vermelhas e um toque de carvalho.</p>
             </article>
           </div>
-          <!-- Produto: Chardonnay -->
           <div class="bg-white p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
             <article class="flex flex-col items-center p-6 bg-white rounded-lg shadow-2xl">
               <img src="src/assets/misc/image_wine2.png" alt="Vinho Branco Chardonnay" class="w-full h-50 object-cover rounded-lg mb-4">
@@ -140,7 +121,6 @@
               <p class="text-base text-gray-700">Refrescante e elegante, com aromas de frutas cítricas e flores brancas.</p>
             </article>
           </div>
-          <!-- Produto: Espumante -->
           <div class="bg-white p-6 rounded-xl shadow-md transform transition-transform duration-300 hover:scale-105">
             <article class="flex flex-col items-center p-6 bg-white rounded-lg shadow-2xl">
               <img src="src/assets/misc/image_wine3.png" alt="Espumante Brut" class="w-full h-50 object-cover rounded-lg mb-4">
@@ -153,17 +133,14 @@
     </section>
   </main>
 
-  <!-- Rodapé com informações institucionais, contato e redes sociais -->
   <footer id="footer" class="bg-[#4D4B2B] text-white py-10">
     <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      <!-- Institucional -->
       <section>
         <h3 class="text-lg font-semibold mb-4">Vinheria Agnello</h3>
         <p class="text-sm">A Vinheria Agnello é dedicada a oferecer vinhos de qualidade excepcional, celebrando a tradição e a paixão pelo mundo do vinho.</p>
       </section>
 
-      <!-- Contato -->
       <section>
         <h3 class="text-lg font-semibold mb-4">Contato</h3>
         <ul class="text-sm space-y-2">
@@ -173,11 +150,9 @@
         </ul>
       </section>
 
-      <!-- Redes sociais -->
       <section>
         <h3 class="text-lg font-semibold mb-4">Siga‑nos</h3>
         <ul class="flex flex-col sm:flex-row sm:space-x-6 space-y-2 sm:space-y-0">
-          <!-- Facebook -->
           <li>
             <a href="#"
                onclick="scrollToTop(); return false;"
@@ -186,7 +161,6 @@
               <span>Facebook</span>
             </a>
           </li>
-          <!-- Instagram -->
           <li>
             <a href="#"
                onclick="scrollToTop(); return false;"
@@ -195,7 +169,6 @@
               <span>Instagram</span>
             </a>
           </li>
-          <!-- Twitter -->
           <li>
             <a href="#"
                onclick="scrollToTop(); return false;"
@@ -208,13 +181,11 @@
       </section>
       
 
-    <!-- Direitos autorais -->
     <div class="text-center text-sm mt-8">
       &copy; 2025 Vinheria Agnello. Todos os direitos reservados.
     </div>
   </footer>
 
-  <!-- Botão de voltar ao topo -->
   <button onclick="scrollToTop()" id="btnTop" title="Voltar ao topo">↑</button>
 </body>
 

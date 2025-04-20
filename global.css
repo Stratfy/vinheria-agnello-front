@@ -1,27 +1,21 @@
 
-/* Estilos específicos da navegação */
 @import url(src/styles/nav.css);
 
-/* Utilitários e animações globais */
 @import url(src/styles/utility.css);
 
-/* Estilização da landing page */
 @import url(src/styles/landing.css);
 
 
 :root {
-  /* Tamanhos de fonte */
   --font-xxl: 5rem;
   --font-xl: 2.5rem;
   --font-lg: 1.5rem;
   --font-md: 1rem;
   --font-sm: 0.8rem;
 
-  /* Cores principais */
   --white: white;
   --black: black;
 
-  /* Paleta de cores customizada */
   --color-light-blue: rgb(230, 234, 235);
   --color-brown: rgb(122, 90, 70);
   --color-dark-green: rgb(77, 75, 43);
@@ -29,25 +23,21 @@
   scroll-behavior: smooth;
 }
 
-/* Background da landing page principal */
 .bg-1 {
   background-image: url(src/assets/backgrounds/background-land.jpg);
   background-size: cover;
   background-position: center bottom 30%;
 }
 
-/* Seções claras (como destaques e sobre) */
 .bg-2 {
   background-color: var(--color-light-blue);
 }
 
-/* Seção dos vinhos com imagem de fundo */
 .bg-3 {
   background-image: url(src/assets/backgrounds/background-land2.png);
   background-position: center;
 }
 
-/* Botão Voltar ao Topo */
 #btnTop{
   position: fixed;
   bottom: 30px;
